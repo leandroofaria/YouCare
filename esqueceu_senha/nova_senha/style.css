@@ -1,0 +1,58 @@
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#senha {
+    height: 25px;
+    width: 250px;
+    border-radius: 5px;
+    border-color: black;
+    text-align: center;
+}
+
+#botao {
+    height: 30px;
+    width: 258px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+#titulo {
+    margin-left: 14px;
+    margin-top: 3px;
+}
+
+.login {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.opcoes {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+#seta {
+    height: 20px;
+    display: flex;
+    margin-left: 5px;
+}
+
+.entrar {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+
+}
