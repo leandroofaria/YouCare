@@ -6,29 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-    <title>Número</title>
+    <title>Validando</title>
 </head>
 <body>
     <div class="tudo">
-        <div class="numero">
-            <h1 id="titulo">MEU NÚMERO</h1>
-            <a href="/cadastro/tela_principal/index.html">
+        <div class="entrar">
+            <h1 id="titulo">VALIDAÇÃO</h1>
+            <a href="/cadastro/tela_numero/index.html">
                 <img src="./imagens/voltar.png" id="seta">
             </a>
         </div>
         <hr>
 
         <div class="login">
-            <input type="tel" required placeholder="(XX) XXXXX-XXXX" id="telefone">
-            <a href="/cadastro/tela_validacao/index.html">
-            <button id="botao">PROXIMO</button>
+            <input type="number" placeholder="Insira o código" id="validando">
+            <button id="botao">SOLICITAR NOVO CÓDIGO</button>
+            <a href="/cadastro/tela_perfil/index.html">
+            <button 
+            id="botao">PRÓXIMO</button>
             </a>
         </div>
 
         <div class="opcoes">
             <a href="https://www.google.com/" target="_blank">Precisa de ajuda?</a>
         </div>
-
     </div>
 </body>
 </html>
