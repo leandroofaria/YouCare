@@ -1,0 +1,47 @@
+body {
+    background-color: white;
+ }
+ 
+ h1 {
+     color: black;
+     font-family: 'Open Sans', sans-serif;
+     text-align: left;
+     font-size: 60px;
+     margin-top: 20px;
+ }
+ 
+ 
+ #botao2 {
+ 
+     margin-left: 70%;
+     font-size:15px;
+     width:470px;
+     height:50px;
+     border-width:1px;
+     color:rgba(255, 255, 255, 1);
+     border-color:rgba(0, 0, 0, 1);
+     font-weight:bold;
+     text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+     background:rgba(0, 0, 0, 1);
+ 
+ }
+ input {
+     color:black;
+     text-align: left;
+     border-color: black;
+     font-size: 30px;
+     height: 50px;
+     width: 450px;
+ }
+ 
+ #seta {
+     height: 20px;
+     display: flex;
+     margin-left: 5px;
+ }
+ 
+#tudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
